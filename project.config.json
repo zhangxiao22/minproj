@@ -20,7 +20,7 @@
     "compileHotReLoad": false,
     "useMultiFrameRuntime": true,
     "useApiHook": true,
-    "useApiHostProcess": false,
+    "useApiHostProcess": true,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -37,8 +37,11 @@
     "minifyWXSS": true
   },
   "compileType": "miniprogram",
-  "appid": "touristappid",
+  "appid": "wx690de437ae041f78",
   "projectname": "zxproj",
+  "cloudfunctionRoot": "cloudfunctions/",
   "miniprogramRoot": "weapp/",
+  "libVersion": "2.16.0",
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
   "condition": {}
 }
